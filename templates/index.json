@@ -271,6 +271,7 @@
       "type": "reading-text",
       "settings": {
         "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/Rural-Marc-Veyrat.png",
         "subheading": "Marc Veyrat, chef étoilé",
         "content": "Du travail d'orfèvre. Le pochage est digne d'un pro, d'un trois étoiles.",
         "button_text": "",
@@ -281,9 +282,9 @@
         "content_width": "lg",
         "reading_speed": "1.5",
         "separate_button": false,
-        "text_opacity": 10,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "text_opacity": 5,
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 40
       }
     },
     "media-blocks": {
