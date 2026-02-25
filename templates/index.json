@@ -542,9 +542,9 @@
         "image_size": "md",
         "image": "shopify://shop_images/imgi_11_970805ed42f208c4e52f6fcfb0a705f9.jpg",
         "overlay_color": "#321e1e",
-        "overlay_opacity": 40,
+        "overlay_opacity": 25,
         "enable_sticky_content": false,
-        "content_width": "md",
+        "content_width": "sm",
         "desktop_text_position": "sm:place-self-center-start",
         "mobile_text_position": "place-self-center"
       }
