@@ -26,6 +26,7 @@ Ce fichier contient les instructions pour tous les agents IA (Claude, Gemini, GP
 
 | Skill | Chemin | Usage |
 |-------|--------|-------|
+| **shopify-horizon-editor** | `.agents/skills/shopify-horizon-editor/SKILL.md` | ⭐ **PRINCIPAL** — Édition experte du thème Horizon (sections, blocks, snippets, settings) |
 | **shopify-apps** | `.agents/skills/shopify-apps/SKILL.md` | Développement d'applications Shopify |
 | **shopify-development** | `.agents/skills/shopify-development/SKILL.md` | Développement général Shopify |
 | **shopify-expert** | `.agents/skills/shopify-expert/SKILL.md` | Expertise et bonnes pratiques |
@@ -41,7 +42,8 @@ Ce fichier contient les instructions pour tous les agents IA (Claude, Gemini, GP
 
 ### Quand utiliser quel skill ?
 
-- 🎨 **Thème / Liquid / Sections** → `shopify-theme-dev`, `shopify-theme-development-guidelines`
+- 🌟 **Horizon — tout ce qui touche au thème** → `shopify-horizon-editor` **(à consulter EN PREMIER)**
+- 🎨 **Thème / Liquid / Sections (générique)** → `shopify-theme-dev`, `shopify-theme-development-guidelines`
 - 🏗️ **Apps / Extensions / API** → `shopify-apps`, `shopify-development`
 - 💡 **Bonnes pratiques / Architecture** → `shopify-expert`
 - 🖼️ **Design / CSS / UI** → `frontend-design`
