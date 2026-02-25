@@ -13,7 +13,7 @@ Avant de commencer à travailler sur le thème Shopify, tu DOIS toujours vérifi
 // turbo
 1. **Vérifier l'état actuel du dépôt local**
 ```bash
-cd /Users/david/dev/perolles29_shopify && git status
+cd /Users/david/dev/ValentineLambert_shopify && git status
 ```
 
 // turbo
