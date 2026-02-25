@@ -78,58 +78,6 @@
             "slide-1-btn-2"
           ]
         },
-        "slide-2": {
-          "type": "_slideshow-image-slide",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "slide_link": "",
-            "content_max_width": 720,
-            "mobile_content_position": "place-self-end-start",
-            "desktop_content_position": "sm:place-self-end-start",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          },
-          "blocks": {
-            "slide-2-heading": {
-              "type": "heading",
-              "settings": {
-                "text": "L'atelier qui sent la <em>vanille</em> et le caramel brûlé",
-                "heading_size": "display-m",
-                "html_tag": "h2",
-                "indent": "none",
-                "highlight_effect": "circle_pencil",
-                "highlight_accent_color": "",
-                "highlight_text_color": ""
-              },
-              "blocks": {}
-            },
-            "slide-2-richtext": {
-              "type": "rich-text",
-              "settings": {
-                "text": "<p>Ateliers pâtisserie à Estavayer-le-Lac. Apprenez les secrets du pochage, du dressage et du caramel familial.</p>",
-                "content_width": "sm"
-              },
-              "blocks": {}
-            },
-            "slide-2-btn": {
-              "type": "button",
-              "settings": {
-                "text": "Découvrir les ateliers",
-                "url": "",
-                "open_in_new_tab": false,
-                "style": "solid",
-                "background": "",
-                "text_color": ""
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "slide-2-heading",
-            "slide-2-richtext",
-            "slide-2-btn"
-          ]
-        },
         "slideshow-controls": {
           "type": "_slideshow-controls",
           "static": true,
@@ -141,8 +89,7 @@
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -250,8 +197,8 @@
         "section_rotation": -2,
         "pause_on_hover": false,
         "text_font": "heading",
-        "text_font_size_mobile": 8,
-        "text_font_size_desktop": 4,
+        "text_font_size_mobile": 6.5,
+        "text_font_size_desktop": 3,
         "section_vertical_spacing_mobile": 20,
         "section_vertical_spacing_desktop": 40,
         "item_horizontal_spacing_mobile": 30,
@@ -311,7 +258,8 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "add_media_spacing": false,
-        "autoplay_video": true,
+        "autoplay_video": false,
+        "primary_image": "shopify://shop_images/imgi_13_fca538d2ccff810bf2cd4124c439926f.jpg",
         "secondary_media_width": 55,
         "secondary_media_mobile_width": 55,
         "show_secondary_media_on_mobile": true,
@@ -347,6 +295,7 @@
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-3",
             "color_scheme_hover": "",
+            "image": "shopify://shop_images/imgi_5_9093a46066be54c866c12d80f93a92ca.jpg",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
@@ -359,7 +308,7 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": true,
-            "text": "<p>Share some content about your store.</p>",
+            "text": "",
             "text_position": "middle_left",
             "button_style": "solid",
             "link_url": "",
@@ -489,7 +438,7 @@
             "collection": "",
             "products_count": 8,
             "title": "Caramel",
-            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "content": "{{ block.settings.collection.description }}",
             "link": "{{ block.settings.collection.url }}"
           }
         },
@@ -499,7 +448,7 @@
             "collection": "",
             "products_count": 8,
             "title": "Sur mesure",
-            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "content": "{{ block.settings.collection.description }}",
             "link": "{{ block.settings.collection.url }}"
           }
         },
@@ -509,7 +458,7 @@
             "collection": "",
             "products_count": 8,
             "title": "Ateliers",
-            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "content": "{{ block.settings.collection.description }}",
             "link": "{{ block.settings.collection.url }}"
           }
         }
@@ -591,11 +540,12 @@
         "color_scheme": "scheme-3",
         "allow_transparent_header": false,
         "image_size": "md",
+        "image": "shopify://shop_images/imgi_11_970805ed42f208c4e52f6fcfb0a705f9.jpg",
         "overlay_color": "#321e1e",
         "overlay_opacity": 40,
         "enable_sticky_content": false,
         "content_width": "md",
-        "desktop_text_position": "sm:place-self-center",
+        "desktop_text_position": "sm:place-self-center-start",
         "mobile_text_position": "place-self-center"
       }
     },
