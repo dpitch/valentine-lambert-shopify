@@ -1,21 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
       "type": "slideshow",
-      "settings": {
-        "allow_transparent_header": true,
-        "image_size": "fill",
-        "transition_type": "fade",
-        "autoplay": true,
-        "pause_auto_rotate_on_hover": false,
-        "cycle_speed": 7,
-        "background": "#321e1e"
-      },
       "blocks": {
         "slide-1": {
           "type": "_slideshow-image-slide",
           "settings": {
             "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/imgi_1_65568163c28b9099a3bdafb071615233.jpg",
+            "slide_link": "",
             "content_max_width": 780,
             "mobile_content_position": "place-self-end-start",
             "desktop_content_position": "sm:place-self-end-start",
@@ -30,15 +32,19 @@
                 "heading_size": "display-m",
                 "html_tag": "h1",
                 "indent": "none",
-                "highlight_effect": "underline_pencil"
-              }
+                "highlight_effect": "underline_pencil",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
             },
             "slide-1-richtext": {
               "type": "rich-text",
               "settings": {
                 "text": "<p>Valentine Lambert, pâtissière autodidacte de la Broye fribourgeoise. Ses tartes ont séduit Cyril Lignac sur M6 — imaginez ce qu'elles feront à votre palais.</p>",
                 "content_width": "sm"
-              }
+              },
+              "blocks": {}
             },
             "slide-1-btn-1": {
               "type": "button",
@@ -46,16 +52,23 @@
                 "text": "Découvrir les créations",
                 "url": "shopify://collections/all",
                 "open_in_new_tab": false,
-                "style": "solid"
-              }
+                "style": "solid",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
             },
             "slide-1-btn-2": {
               "type": "button",
               "settings": {
                 "text": "Offrir un bon cadeau",
+                "url": "",
                 "open_in_new_tab": false,
-                "style": "outline"
-              }
+                "style": "outline",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -69,6 +82,7 @@
           "type": "_slideshow-image-slide",
           "settings": {
             "color_scheme": "scheme-3",
+            "slide_link": "",
             "content_max_width": 720,
             "mobile_content_position": "place-self-end-start",
             "desktop_content_position": "sm:place-self-end-start",
@@ -83,23 +97,31 @@
                 "heading_size": "display-m",
                 "html_tag": "h2",
                 "indent": "none",
-                "highlight_effect": "circle_pencil"
-              }
+                "highlight_effect": "circle_pencil",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
             },
             "slide-2-richtext": {
               "type": "rich-text",
               "settings": {
                 "text": "<p>Ateliers pâtisserie à Estavayer-le-Lac. Apprenez les secrets du pochage, du dressage et du caramel familial.</p>",
                 "content_width": "sm"
-              }
+              },
+              "blocks": {}
             },
             "slide-2-btn": {
               "type": "button",
               "settings": {
                 "text": "Découvrir les ateliers",
+                "url": "",
                 "open_in_new_tab": false,
-                "style": "solid"
-              }
+                "style": "solid",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -114,36 +136,35 @@
           "settings": {
             "controls_style": "dot",
             "controls_color": "#ffffff"
-          }
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "slide-1",
         "slide-2"
-      ]
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "image_size": "fill",
+        "transition_type": "fade",
+        "autoplay": true,
+        "pause_auto_rotate_on_hover": false,
+        "cycle_speed": 7,
+        "background": "#321e1e"
+      }
     },
     "scrolling-content": {
       "type": "scrolling-content",
-      "settings": {
-        "color_scheme": "scheme-4",
-        "scrolling_speed": 0.4,
-        "scroll_direction": "end-to-start",
-        "section_rotation": -2,
-        "pause_on_hover": false,
-        "text_font": "heading",
-        "text_font_size_mobile": 8,
-        "text_font_size_desktop": 4,
-        "section_vertical_spacing_mobile": 20,
-        "section_vertical_spacing_desktop": 40,
-        "item_horizontal_spacing_mobile": 30,
-        "item_horizontal_spacing_desktop": 60
-      },
       "blocks": {
         "ticker-1": {
           "type": "text",
           "settings": {
             "text": "Pâtisserie artisanale",
-            "highlight_effect": "default"
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "ticker-sep-1": {
@@ -156,7 +177,10 @@
           "type": "text",
           "settings": {
             "text": "Fait main à Estavayer-le-Lac",
-            "highlight_effect": "default"
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "ticker-sep-2": {
@@ -169,7 +193,10 @@
           "type": "text",
           "settings": {
             "text": "Comme vue sur M6",
-            "highlight_effect": "italic"
+            "icon_position": "before_text",
+            "highlight_effect": "italic",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "ticker-sep-3": {
@@ -182,7 +209,10 @@
           "type": "text",
           "settings": {
             "text": "Saveurs de la Broye",
-            "highlight_effect": "default"
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "ticker-sep-4": {
@@ -195,7 +225,10 @@
           "type": "text",
           "settings": {
             "text": "Caramel de grand-maman",
-            "highlight_effect": "default"
+            "icon_position": "before_text",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         }
       },
@@ -209,24 +242,24 @@
         "ticker-4",
         "ticker-sep-4",
         "ticker-5"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "scrolling_speed": 0.4,
+        "scroll_direction": "end-to-start",
+        "section_rotation": -2,
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 8,
+        "text_font_size_desktop": 4,
+        "section_vertical_spacing_mobile": 20,
+        "section_vertical_spacing_desktop": 40,
+        "item_horizontal_spacing_mobile": 30,
+        "item_horizontal_spacing_desktop": 60
+      }
     },
     "text-with-media": {
       "type": "text-with-media",
-      "settings": {
-        "color_scheme": "scheme-5",
-        "content_position": "end",
-        "content_percentage_width": 45,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "add_media_spacing": false,
-        "autoplay_video": true,
-        "secondary_media_width": 55,
-        "secondary_media_mobile_width": 55,
-        "show_secondary_media_on_mobile": true,
-        "secondary_media_alignment": "place-self-center",
-        "secondary_media_shape": "blob-5"
-      },
       "blocks": {
         "bio-subheading": {
           "type": "subheading",
@@ -241,7 +274,9 @@
             "text": "La fille qui se lève à 3h du mat' pour tester un <em>pochage</em>",
             "heading_tag": "h2",
             "position": "top_left",
-            "highlight_effect": "underline_pencil"
+            "highlight_effect": "underline_pencil",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "bio-richtext": {
@@ -255,8 +290,11 @@
           "type": "button",
           "settings": {
             "text": "En savoir plus",
+            "url": "",
             "position": "bottom_left",
-            "style": "outline"
+            "style": "outline",
+            "background": "",
+            "text_color": ""
           }
         }
       },
@@ -265,7 +303,21 @@
         "bio-heading",
         "bio-richtext",
         "bio-button"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "content_position": "end",
+        "content_percentage_width": 45,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "secondary_media_width": 55,
+        "secondary_media_mobile_width": 55,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "blob-5"
+      }
     },
     "reading-text": {
       "type": "reading-text",
@@ -273,6 +325,8 @@
         "color_scheme": "scheme-1",
         "subheading": "Marc Veyrat, chef étoilé",
         "content": "Du travail d'orfèvre. Le pochage est digne d'un pro, d'un trois étoiles.",
+        "button_text": "",
+        "button_link": "",
         "heading_tag": "h2",
         "mobile_text_position": "place-self-center",
         "desktop_text_position": "sm:place-self-center",
@@ -286,31 +340,18 @@
     },
     "media-blocks": {
       "type": "media-blocks",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "allow_transparent_header": false,
-        "title": "Ce qui sort de son atelier",
-        "heading_tag": "h3",
-        "text_alignment": "left",
-        "scrolling_title": false,
-        "scrolling_title_separator": "none",
-        "stack_on_mobile": true,
-        "add_horizontal_spacing": true,
-        "add_border": false,
-        "column_spacing": "sm",
-        "items_per_row": 4,
-        "block_size": "auto"
-      },
       "blocks": {
         "specialite-1": {
           "type": "image_with_text",
           "settings": {
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-3",
+            "color_scheme_hover": "",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "icon_position": "middle_center",
+            "subheading": "Image block",
             "subheading_position": "top_left",
             "title": "Tartes signature",
             "heading_tag": "h3",
@@ -318,8 +359,10 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": true,
+            "text": "<p>Share some content about your store.</p>",
             "text_position": "middle_left",
             "button_style": "solid",
+            "link_url": "",
             "link_text": "Voir les tartes",
             "link_position": "bottom_left"
           }
@@ -329,10 +372,12 @@
           "settings": {
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-3",
+            "color_scheme_hover": "",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "icon_position": "middle_center",
+            "subheading": "Image block",
             "subheading_position": "top_left",
             "title": "La gamme caramel",
             "heading_tag": "h3",
@@ -340,8 +385,10 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": true,
+            "text": "<p>Share some content about your store.</p>",
             "text_position": "middle_left",
             "button_style": "solid",
+            "link_url": "",
             "link_text": "Découvrir le caramel",
             "link_position": "bottom_left"
           }
@@ -351,10 +398,12 @@
           "settings": {
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-3",
+            "color_scheme_hover": "",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "icon_position": "middle_center",
+            "subheading": "Image block",
             "subheading_position": "top_left",
             "title": "Gâteaux sur mesure",
             "heading_tag": "h3",
@@ -362,8 +411,10 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": true,
+            "text": "<p>Share some content about your store.</p>",
             "text_position": "middle_left",
             "button_style": "solid",
+            "link_url": "",
             "link_text": "Commander sur mesure",
             "link_position": "bottom_left"
           }
@@ -373,10 +424,12 @@
           "settings": {
             "change_color_scheme_on_hover": false,
             "color_scheme": "scheme-3",
+            "color_scheme_hover": "",
             "icon": "none",
             "icon_width": 32,
             "mobile_icon_width": 24,
             "icon_position": "middle_center",
+            "subheading": "Image block",
             "subheading_position": "top_left",
             "title": "Pâtisseries variées",
             "heading_tag": "h3",
@@ -384,8 +437,10 @@
             "scrolling_title": false,
             "scrolling_title_separator": "none",
             "show_text_vertically": true,
+            "text": "<p>Share some content about your store.</p>",
             "text_position": "middle_left",
             "button_style": "solid",
+            "link_url": "",
             "link_text": "Tout explorer",
             "link_position": "bottom_left"
           }
@@ -396,10 +451,75 @@
         "specialite-2",
         "specialite-3",
         "specialite-4"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": false,
+        "subheading": "",
+        "title": "Ce qui sort de son atelier",
+        "content": "<p>Use this section to create rich content by using images, videos, scrolling text or horizontal text. If textual content is more important than imagery, consider using the multi column section instead.</p>",
+        "heading_tag": "h3",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "none",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "add_border": false,
+        "column_spacing": "sm",
+        "items_per_row": 4,
+        "block_size": "auto"
+      }
     },
     "featured-collections": {
       "type": "featured-collections",
+      "blocks": {
+        "collection-tartes": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Tartes",
+            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "collection-caramel": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Caramel",
+            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "collection-sur-mesure": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Sur mesure",
+            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        },
+        "collection-ateliers": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "Ateliers",
+            "content": "<p>{{ block.settings.collection.description }}</p>",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection-tartes",
+        "collection-caramel",
+        "collection-sur-mesure",
+        "collection-ateliers"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "stack_products_mobile": true,
@@ -410,46 +530,63 @@
         "tabs_icon": "circle",
         "show_view_all_button": true,
         "show_scrolling_bar": true
-      },
-      "blocks": {
-        "collection-tartes": {
-          "type": "collection",
-          "settings": {
-            "products_count": 8,
-            "title": "Tartes"
-          }
-        },
-        "collection-caramel": {
-          "type": "collection",
-          "settings": {
-            "products_count": 8,
-            "title": "Caramel"
-          }
-        },
-        "collection-sur-mesure": {
-          "type": "collection",
-          "settings": {
-            "products_count": 8,
-            "title": "Sur mesure"
-          }
-        },
-        "collection-ateliers": {
-          "type": "collection",
-          "settings": {
-            "products_count": 8,
-            "title": "Ateliers"
-          }
-        }
-      },
-      "block_order": [
-        "collection-tartes",
-        "collection-caramel",
-        "collection-sur-mesure",
-        "collection-ateliers"
-      ]
+      }
     },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "overlay-heading": {
+          "type": "heading",
+          "settings": {
+            "text": "Commander, c'est aussi simple que de manger une part de <em>tarte</em>",
+            "heading_size": "h3",
+            "html_tag": "p",
+            "indent": "none",
+            "highlight_effect": "underline_pencil",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          },
+          "blocks": {}
+        },
+        "overlay-richtext": {
+          "type": "rich-text",
+          "settings": {
+            "text": "<p>Pas besoin d'habiter à deux pas de l'atelier pour se régaler. Commandez en ligne, Valentine s'occupe du reste.</p>",
+            "content_width": "sm"
+          },
+          "blocks": {}
+        },
+        "overlay-btn-1": {
+          "type": "button",
+          "settings": {
+            "text": "Commander maintenant",
+            "url": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          },
+          "blocks": {}
+        },
+        "overlay-btn-2": {
+          "type": "button",
+          "settings": {
+            "text": "Offrir un bon cadeau",
+            "url": "",
+            "open_in_new_tab": false,
+            "style": "outline",
+            "background": "",
+            "text_color": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "overlay-heading",
+        "overlay-richtext",
+        "overlay-btn-1",
+        "overlay-btn-2"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "allow_transparent_header": false,
@@ -460,62 +597,19 @@
         "content_width": "md",
         "desktop_text_position": "sm:place-self-center",
         "mobile_text_position": "place-self-center"
-      },
-      "blocks": {
-        "overlay-heading": {
-          "type": "heading",
-          "settings": {
-            "text": "Commander, c'est aussi simple que de manger une part de <em>tarte</em>",
-            "heading_tag": "h2",
-            "highlight_effect": "underline_pencil"
-          }
-        },
-        "overlay-richtext": {
-          "type": "rich-text",
-          "settings": {
-            "text": "<p>Pas besoin d'habiter à deux pas de l'atelier pour se régaler. Commandez en ligne, Valentine s'occupe du reste.</p>"
-          }
-        },
-        "overlay-btn-1": {
-          "type": "button",
-          "settings": {
-            "text": "Commander maintenant",
-            "url": "shopify://collections/all",
-            "style": "solid"
-          }
-        },
-        "overlay-btn-2": {
-          "type": "button",
-          "settings": {
-            "text": "Offrir un bon cadeau",
-            "style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "overlay-heading",
-        "overlay-richtext",
-        "overlay-btn-1",
-        "overlay-btn-2"
-      ]
+      }
     },
     "timeline": {
       "type": "timeline",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "timeline_position": "top",
-        "image_position": "right",
-        "text_alignment": "center",
-        "add_image_spacing": false
-      },
       "blocks": {
         "step-1": {
           "type": "item",
           "settings": {
+            "label": "Étape 1",
+            "subheading": "Subheading",
             "icon": "picto-box",
             "icon_width": 40,
             "mobile_icon_width": 32,
-            "label": "Étape 1",
             "title": "Choisissez",
             "heading_tag": "h3",
             "highlight_effect": "default",
@@ -525,10 +619,11 @@
         "step-2": {
           "type": "item",
           "settings": {
+            "label": "Étape 2",
+            "subheading": "Subheading",
             "icon": "picto-lock",
             "icon_width": 40,
             "mobile_icon_width": 32,
-            "label": "Étape 2",
             "title": "Commandez",
             "heading_tag": "h3",
             "highlight_effect": "default",
@@ -538,10 +633,11 @@
         "step-3": {
           "type": "item",
           "settings": {
+            "label": "Étape 3",
+            "subheading": "Subheading",
             "icon": "picto-truck",
             "icon_width": 40,
             "mobile_icon_width": 32,
-            "label": "Étape 3",
             "title": "Récupérez",
             "heading_tag": "h3",
             "highlight_effect": "default",
@@ -553,14 +649,17 @@
         "step-1",
         "step-2",
         "step-3"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "timeline_position": "top",
+        "image_position": "right",
+        "text_alignment": "center",
+        "add_image_spacing": false
+      }
     },
     "trust-icons": {
       "type": "trust-icons",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "item_heading_style": "subheading"
-      },
       "blocks": {
         "trust-1": {
           "type": "item",
@@ -608,24 +707,19 @@
         "trust-2",
         "trust-3",
         "trust-4"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "item_heading_style": "subheading"
+      }
     },
     "press": {
       "type": "press",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "title": "Ils en parlent mieux que nous",
-        "use_arrows_navigation": false,
-        "show_quotation_mark": true,
-        "quotation_tag": "h4",
-        "item_style": "avatar",
-        "autoplay": true,
-        "cycle_speed": 6
-      },
       "blocks": {
         "press-1": {
           "type": "item",
           "settings": {
+            "logo_width": 80,
             "author": "Marc Veyrat, chef étoilé",
             "content": "Du travail d'orfèvre. Le pochage est digne d'un pro, d'un trois étoiles."
           }
@@ -633,6 +727,7 @@
         "press-2": {
           "type": "item",
           "settings": {
+            "logo_width": 80,
             "author": "François-Régis Gaudry, critique culinaire",
             "content": "C'est sacrément bon. Une apparente simplicité, mais un effet waouh !"
           }
@@ -640,6 +735,7 @@
         "press-3": {
           "type": "item",
           "settings": {
+            "logo_width": 80,
             "author": "Cyril Lignac, chef et animateur TV",
             "content": "Un dressage digne de l'horlogerie suisse."
           }
@@ -649,55 +745,61 @@
         "press-1",
         "press-2",
         "press-3"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "Ils en parlent mieux que nous",
+        "use_arrows_navigation": false,
+        "show_quotation_mark": true,
+        "quotation_tag": "h4",
+        "item_style": "avatar",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
     },
     "logo-list": {
       "type": "logo-list",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "subheading": "Vus dans la presse",
-        "title": "",
-        "heading_tag": "h3",
-        "content_alignment": "center",
-        "reveal_on_scroll": true,
-        "stack_on_mobile": false,
-        "add_logos_spacing": true,
-        "logos_padding_block": 20
-      },
       "blocks": {
         "logo-gaultmillau": {
           "type": "logo",
           "settings": {
             "width": 120,
-            "mobile_width": 80
+            "mobile_width": 80,
+            "link": ""
           }
         },
         "logo-m6": {
           "type": "logo",
           "settings": {
             "width": 120,
-            "mobile_width": 80
+            "mobile_width": 80,
+            "link": ""
           }
         },
         "logo-laliberte": {
           "type": "logo",
           "settings": {
             "width": 120,
-            "mobile_width": 80
+            "mobile_width": 80,
+            "link": ""
           }
         },
         "logo-frapp": {
           "type": "logo",
           "settings": {
             "width": 120,
-            "mobile_width": 80
+            "mobile_width": 80,
+            "link": ""
           }
         },
         "logo-rtn": {
           "type": "logo",
           "settings": {
             "width": 120,
-            "mobile_width": 80
+            "mobile_width": 80,
+            "link": ""
           }
         }
       },
@@ -707,24 +809,23 @@
         "logo-laliberte",
         "logo-frapp",
         "logo-rtn"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "subheading": "Vus dans la presse",
+        "title": "",
+        "heading_tag": "h3",
+        "content_alignment": "center",
+        "reveal_on_scroll": true,
+        "stack_on_mobile": false,
+        "add_logos_spacing": true,
+        "logos_padding_block": 20,
+        "logo_background": "",
+        "logo_border": ""
+      }
     },
     "text-with-media-ateliers": {
       "type": "text-with-media",
-      "settings": {
-        "color_scheme": "scheme-6",
-        "content_position": "start",
-        "content_percentage_width": 45,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "add_media_spacing": false,
-        "autoplay_video": true,
-        "secondary_media_width": 55,
-        "secondary_media_mobile_width": 55,
-        "show_secondary_media_on_mobile": true,
-        "secondary_media_alignment": "place-self-center",
-        "secondary_media_shape": "none"
-      },
       "blocks": {
         "atelier-subheading": {
           "type": "subheading",
@@ -739,7 +840,9 @@
             "text": "Apprenez à pâtisser (sans prise de <em>tête</em>)",
             "heading_tag": "h2",
             "position": "top_left",
-            "highlight_effect": "circle_pencil"
+            "highlight_effect": "circle_pencil",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
           }
         },
         "atelier-richtext": {
@@ -753,16 +856,22 @@
           "type": "button",
           "settings": {
             "text": "Voir les prochains ateliers",
+            "url": "",
             "position": "bottom_left",
-            "style": "solid"
+            "style": "solid",
+            "background": "",
+            "text_color": ""
           }
         },
         "atelier-btn-2": {
           "type": "button",
           "settings": {
             "text": "Offrir un atelier",
+            "url": "",
             "position": "bottom_left",
-            "style": "outline"
+            "style": "outline",
+            "background": "",
+            "text_color": ""
           }
         }
       },
@@ -772,21 +881,24 @@
         "atelier-richtext",
         "atelier-btn-1",
         "atelier-btn-2"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-6",
+        "content_position": "start",
+        "content_percentage_width": 45,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "secondary_media_width": 55,
+        "secondary_media_mobile_width": 55,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
     },
     "dynamic-grid": {
       "type": "dynamic-grid",
-      "settings": {
-        "color_scheme": "scheme-4",
-        "allow_transparent_header": false,
-        "show_background_image_parallax": false,
-        "add_vertical_spacing": true,
-        "add_horizontal_spacing": true,
-        "gap": 16,
-        "mobile_gap": 10,
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      },
       "blocks": {
         "grid-item-heading": {
           "type": "_dynamic-grid-item",
@@ -817,8 +929,11 @@
                 "font_size_line_height": 0.9,
                 "html_tag": "h2",
                 "indent": "none",
-                "highlight_effect": "underline_pencil"
-              }
+                "highlight_effect": "underline_pencil",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -847,9 +962,11 @@
             "img-caption-1": {
               "type": "image-with-caption",
               "settings": {
+                "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -878,9 +995,11 @@
             "img-caption-2": {
               "type": "image-with-caption",
               "settings": {
+                "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -909,9 +1028,11 @@
             "img-caption-3": {
               "type": "image-with-caption",
               "settings": {
+                "caption": "",
                 "max_width": 100,
                 "mobile_max_width": 100
-              }
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -943,8 +1064,11 @@
                 "text": "Suivre @valentinelambert_",
                 "url": "https://www.instagram.com/valentinelambert_/",
                 "open_in_new_tab": true,
-                "style": "outline"
-              }
+                "style": "outline",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -958,17 +1082,21 @@
         "grid-item-img-2",
         "grid-item-img-3",
         "grid-item-cta"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "allow_transparent_header": false,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     },
     "testimonials": {
       "type": "testimonials",
-      "settings": {
-        "color_scheme": "scheme-1",
-        "text_alignment": "left",
-        "image_position": "end",
-        "autoplay": true,
-        "cycle_speed": 6
-      },
       "blocks": {
         "testimonial-1": {
           "type": "testimonial",
@@ -978,6 +1106,7 @@
             "author": "Isabelle M.",
             "title": "La tarte au caramel de Valentine, c'est un voyage. On ferme les yeux et on est chez grand-maman.",
             "heading_tag": "h4",
+            "product": "",
             "position": "place-self-start"
           }
         },
@@ -989,6 +1118,7 @@
             "author": "Thierry B.",
             "title": "Gâteau de mariage absolument parfait. Nos invités en parlent encore, six mois après.",
             "heading_tag": "h4",
+            "product": "",
             "position": "place-self-start"
           }
         },
@@ -1000,6 +1130,7 @@
             "author": "Sophie L.",
             "title": "L'atelier était incroyable. On a ri, on a appris, et on est reparti avec des tartes dignes d'un pro.",
             "heading_tag": "h4",
+            "product": "",
             "position": "place-self-start"
           }
         },
@@ -1011,6 +1142,7 @@
             "author": "Laure et Martin",
             "title": "Ponctuel, soigné, délicieux. On commande les yeux fermés.",
             "heading_tag": "h4",
+            "product": "",
             "position": "place-self-start"
           }
         }
@@ -1020,59 +1152,76 @@
         "testimonial-2",
         "testimonial-3",
         "testimonial-4"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "text_alignment": "left",
+        "image_position": "end",
+        "autoplay": true,
+        "cycle_speed": 6
+      }
     },
     "faq": {
       "type": "faq",
-      "settings": {
-        "color_scheme": "scheme-2",
-        "layout": "stacked",
-        "accordion_style": "border",
-        "question_style": "text",
-        "title": "Les questions qu'on nous pose tout le temps",
-        "title_tag": "h3"
-      },
       "blocks": {
         "faq-q1": {
           "type": "question",
           "settings": {
             "question": "Comment passer commande ?",
-            "answer": "<p>Directement sur ce site ! Choisissez votre pâtisserie, sélectionnez la date souhaitée et validez votre commande. Vous recevrez une confirmation par e-mail.</p>"
+            "answer": "<p>Directement sur ce site ! Choisissez votre pâtisserie, sélectionnez la date souhaitée et validez votre commande. Vous recevrez une confirmation par e-mail.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         },
         "faq-q2": {
           "type": "question",
           "settings": {
             "question": "Quels sont les délais de commande ?",
-            "answer": "<p>Pour les tartes et pâtisseries classiques, merci de commander au minimum quelques jours ouvrables à l'avance. Pour les gâteaux sur mesure (mariage, événement), prévoyez au moins deux à trois semaines.</p>"
+            "answer": "<p>Pour les tartes et pâtisseries classiques, merci de commander au minimum quelques jours ouvrables à l'avance. Pour les gâteaux sur mesure (mariage, événement), prévoyez au moins deux à trois semaines.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         },
         "faq-q3": {
           "type": "question",
           "settings": {
             "question": "Vous livrez où ?",
-            "answer": "<p>Retrait gratuit à l'atelier à Estavayer-le-Lac. Livraison possible dans la Broye fribourgeoise et les environs (Payerne, Yverdon-les-Bains, Fribourg, etc.). Les frais de livraison sont calculés selon la distance.</p>"
+            "answer": "<p>Retrait gratuit à l'atelier à Estavayer-le-Lac. Livraison possible dans la Broye fribourgeoise et les environs (Payerne, Yverdon-les-Bains, Fribourg, etc.). Les frais de livraison sont calculés selon la distance.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         },
         "faq-q4": {
           "type": "question",
           "settings": {
             "question": "Comment se passe le paiement ?",
-            "answer": "<p>Paiement en ligne sécurisé en CHF par carte bancaire, TWINT ou virement bancaire.</p>"
+            "answer": "<p>Paiement en ligne sécurisé en CHF par carte bancaire, TWINT ou virement bancaire.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         },
         "faq-q5": {
           "type": "question",
           "settings": {
             "question": "Je suis allergique / intolérant, c'est possible quand même ?",
-            "answer": "<p>Les allergènes sont indiqués sur chaque fiche produit. Pour toute demande spécifique (sans gluten, sans lactose, etc.), contactez Valentine directement — elle fera son possible pour adapter la recette.</p>"
+            "answer": "<p>Les allergènes sont indiqués sur chaque fiche produit. Pour toute demande spécifique (sans gluten, sans lactose, etc.), contactez Valentine directement — elle fera son possible pour adapter la recette.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         },
         "faq-q6": {
           "type": "question",
           "settings": {
             "question": "Vous faites des bons cadeaux ?",
-            "answer": "<p>Oui ! Les bons cadeaux sont disponibles directement sur le site. Idéal pour un anniversaire, une fête, ou juste pour faire plaisir. Gâteaux ou ateliers, à vous de choisir.</p>"
+            "answer": "<p>Oui ! Les bons cadeaux sont disponibles directement sur le site. Idéal pour un anniversaire, une fête, ou juste pour faire plaisir. Gâteaux ou ateliers, à vous de choisir.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
           }
         }
       },
@@ -1083,7 +1232,20 @@
         "faq-q4",
         "faq-q5",
         "faq-q6"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "layout": "stacked",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "We're here to help",
+        "title": "Les questions qu'on nous pose tout le temps",
+        "title_tag": "h3",
+        "content": "<p>Use the FAQ section to answer your customers' most frequent questions.</p>",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
     },
     "newsletter": {
       "type": "newsletter",
