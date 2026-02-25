@@ -216,7 +216,7 @@
       "settings": {
         "color_scheme": "scheme-5",
         "content_position": "end",
-        "content_percentage_width": 48,
+        "content_percentage_width": 45,
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "add_media_spacing": false,
@@ -714,7 +714,7 @@
       "settings": {
         "color_scheme": "scheme-6",
         "content_position": "start",
-        "content_percentage_width": 48,
+        "content_percentage_width": 45,
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "add_media_spacing": false,
