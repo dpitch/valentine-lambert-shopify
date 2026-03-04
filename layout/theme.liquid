@@ -52,6 +52,64 @@
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    <style>
+      @font-face {
+        font-family: 'Self Modern';
+        src: url('{{ "Self Modern Regular.otf" | asset_url }}') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Self Modern';
+        src: url('{{ "Self Modern Italic.otf" | asset_url }}') format('opentype');
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Sohne';
+        src: url('{{ "Sohne-Extraleicht.otf" | asset_url }}') format('opentype');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Sohne';
+        src: url('{{ "Sohne-Leicht.otf" | asset_url }}') format('opentype');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Sohne';
+        src: url('{{ "Sohne-Buch.otf" | asset_url }}') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Sohne';
+        src: url('{{ "Sohne-Kraftig.otf" | asset_url }}') format('opentype');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'Sohne';
+        src: url('{{ "Sohne-Halbfett.otf" | asset_url }}') format('opentype');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
 
   {% liquid
